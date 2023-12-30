@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  your_node_app:
+    image: elmaruis/mjss
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
